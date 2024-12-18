@@ -113,4 +113,12 @@ nav a:hover{
     .right-nav .icon:hover{
         background-color: black;
     }
+    .form-container{
+        width: 500px;
+    }
+}
+@media screen and (max-width:600px) {
+    .form-container{
+        width: 70%;
+    }
 }
