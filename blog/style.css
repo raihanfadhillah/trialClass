@@ -147,4 +147,24 @@ form button:hover{
     .material-symbols-outlined:hover{
         color: #d10621;
     }
+    .blog{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 16px;
+    }
+    .blog-list{
+        width: 100%;
+    }
+    .blog-list-item{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 16px;
+    }
+    .blog-image img{
+        width: 100%;
+    }
+    .blog-form{
+        margin-top: 50px;
+        width: 90%;
+    }
 }
